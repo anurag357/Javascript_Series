@@ -15,7 +15,6 @@ let a = true
 console.log(a) // true
 console.log(+true) // 1
 
-
 let gameCounter = 10;
 let y = gameCounter++;
 console.log(gameCounter, y) // 11, 10
