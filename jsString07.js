@@ -18,3 +18,16 @@ console.log(+true) // 1
 let gameCounter = 10;
 let y = gameCounter++;
 console.log(gameCounter, y) // 11, 10
+
+
+const name = 'anurag pathak'
+const email = 'anuragp@gmail.com'
+console.log(`My name is ${name} amd my email is ${email}`)
+
+console.log(name.charAt(2))
+console.log(name.toUpperCase())
+console.log(name.trim())
+console.log(name.length)
+console.log(name.replace('  ', ''))
+console.log(name.includes('anurag'))
+console.log(name.split(' ',1))
